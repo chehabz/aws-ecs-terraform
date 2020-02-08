@@ -1,0 +1,9 @@
+repos:
+- repo: git://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.19.0
+  hooks:
+    - id: terraform_fmt
+    #- id: terraform_validate not supported at the moment
+    # sub directory formatting
+    # https://github.com/antonbabenko/pre-commit-terraform/issues/59
+    - id: terraform_tflint

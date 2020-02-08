@@ -1,0 +1,6 @@
+aws.tf
+.terraform
+.aws
+.DS_Store
+*.tfplan
+.tmp
